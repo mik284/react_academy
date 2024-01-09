@@ -1,6 +1,10 @@
-import { BASE_URL } from "../utils/config"
+import { BASE_URL } from "../utils/config";
 
-export const fetchUsers =()=>{
-    const response = fetch(`${BASE_URL}/users`).then(res=>res.json)
-    return response.data
-}
+const fetchUsers = async () => {
+  const response = await fetch(`${BASE_URL}/users`);
+  const data = await response.json();
+  console.log(data);
+  return data;
+};
+
+export default fetchUsers;
