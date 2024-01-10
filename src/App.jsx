@@ -24,7 +24,7 @@ function App() {
         <Route path="/users" element={<Users />} />
       </Route>
         <Route index path="/login" element={<Login />} />
-    </Routes>
+    </Routes> 
   );
 }
 
