@@ -14,7 +14,7 @@ function Users() {
 
   return (
     <>
-      <div>
+      <div style={{ margin: "0 auto", padding: "0 20em 0 20em" }}>
         <h3>Current users.</h3>
         <div
           style={{
@@ -40,13 +40,13 @@ function Users() {
                 }}
               >
                 <div>
-                    <div>
-                        👤
-                    </div>
+                  <div>👤</div>
                   <h4>Name: {user.name}</h4>
                   <span>Username: {user.username}</span>
                   <p>☎️ {user.phone}</p>
-                  <i>🌐 <a href={`http://${user.website}`}>{user.website}</a></i>
+                  <i>
+                    🌐 <a href={`http://${user.website}`}>{user.website}</a>
+                  </i>
                 </div>
               </div>
             );
