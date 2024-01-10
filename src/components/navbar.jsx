@@ -10,7 +10,7 @@ const Navbar = () => {
         <h2>Tracom Academy</h2>
       </NavLink>
       <div style={{ display: "flex", gap: "2em" }}>
-        <NavLink to={"/home"}>
+        <NavLink to={"/"}>
           <h3>Home</h3>
         </NavLink>
 
