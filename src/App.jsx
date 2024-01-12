@@ -5,8 +5,8 @@ import { Outlet, Route, Routes } from "react-router";
 import Contact from "./pages/Contact/Contact";
 import Users from "./pages/users/Users";
 import Login from "./pages/Login/Login";
-import RandomTheme from "./HOC/RandomTheme";
 import randomTheme from "./HOC/RandomTheme";
+
 
 
 const Layout = () => {
@@ -30,4 +30,4 @@ function App() {
   );
 }
 
-export default App
+export default randomTheme(App)
