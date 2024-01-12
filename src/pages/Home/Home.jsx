@@ -13,4 +13,4 @@ const Home = () => {
 	)
 }
 
-export default randomTheme(Home,'red')
+export default Home;
