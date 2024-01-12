@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div style={{ margin: "0 auto", width: "70em" }}>
       <h1 style={{ textAlign: "center" }}>This is Home</h1>
-      <p>
+      <p style={{ textAlign: "center" }}>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem ad
         aperiam perspiciatis, itaque atque unde similique quod. Fuga laborum
         accusantium facere eveniet, repellendus delectus, voluptas labore
