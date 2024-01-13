@@ -1,6 +1,6 @@
 
 
-const randomTheme = (WrappedComponent) => {
+const withRandomTheme = (WrappedComponent) => {
 
   function EnhancedComponent(props) {
     const colort = ['red', 'green', 'yellow', 'orange', 'purple','skyblue']
@@ -16,4 +16,4 @@ const randomTheme = (WrappedComponent) => {
   return EnhancedComponent
 }
 
-export default randomTheme;
+export default withRandomTheme;

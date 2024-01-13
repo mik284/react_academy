@@ -5,7 +5,7 @@ import { Outlet, Route, Routes } from "react-router";
 import Contact from "./pages/Contact/Contact";
 import Users from "./pages/users/Users";
 import Login from "./pages/Login/Login";
-import randomTheme from "./HOC/RandomTheme";
+import withRandomTheme from "./HOC/RandomTheme";
 
 
 
@@ -30,4 +30,4 @@ function App() {
   );
 }
 
-export default randomTheme(App)
+export default withRandomTheme(App)
